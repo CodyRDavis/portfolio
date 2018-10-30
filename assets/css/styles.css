@@ -1,0 +1,65 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-image: url("../images/bg-mountain.jpg");
+    background-position: center;
+    background-size: cover;
+
+    transition: background 1s linear;
+}
+/*Specifics*/
+/*###############################################################################################################################*/
+
+.nav-menu ul {
+    display: flex;
+    justify-content: space-evenly;
+
+    max-width: 600px;
+}
+
+.nav-menu ul li {
+    float: left;
+    margin: 12px;
+    padding: 6px;
+    text-align: center;
+    font-size: 1.25rem;
+
+    width: 120px;
+    z-index: 999;
+}
+
+.logo-box{
+    position: fixed;
+    display:flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+/*General definitions */
+/*##############################################################################################################################*/
+
+.border-3swr {
+    border: 3px solid #fff;
+    border-radius: 20px;
+}
+
+.white {
+    color: white;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.center-text{
+    text-align: center;
+}
+
+.hover-red:hover {
+    color: red
+}
