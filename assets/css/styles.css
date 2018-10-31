@@ -8,16 +8,17 @@ body {
     background-position: center;
     background-size: cover;
 
+    font-family: Arial, Helvetica, sans-serif;
+
     transition: background 1s linear;
 }
 /*Specifics*/
 /*###############################################################################################################################*/
-
 .nav-menu ul {
     display: flex;
     justify-content: space-evenly;
 
-    max-width: 600px;
+    /*max-width: 600px;*/
 }
 
 .nav-menu ul li {
@@ -33,6 +34,8 @@ body {
 
 .logo-box{
     position: fixed;
+    top: 0;
+    left: 0;
     display:flex;
     height: 100%;
     width: 100%;
@@ -40,8 +43,18 @@ body {
     align-items: center;
 }
 
+.logo-image
+{
+    height: 250px;
+    width: 250px;
+}
+
 /*General definitions */
 /*##############################################################################################################################*/
+
+.page-width {
+    max-width: 600px;
+}
 
 .border-3swr {
     border: 3px solid #fff;
@@ -61,5 +74,6 @@ body {
 }
 
 .hover-red:hover {
-    color: red
+    color: red;
+    border-color: red;
 }
